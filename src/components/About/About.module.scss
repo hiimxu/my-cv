@@ -1,0 +1,33 @@
+.wrapper {
+    margin-bottom: 40px;
+}
+
+.container {
+    display: flex;
+    padding: 0 15px;
+    width: auto;
+}
+.about-container {
+    display: flex;
+}
+
+.info {
+    display: flex;
+}
+.address-line {
+    padding: 0;
+    li {
+        list-style: none;
+        margin-bottom: 15px;
+    }
+    svg {
+        margin-right: 10px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .about-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
