@@ -23,7 +23,14 @@ function Experience() {
                                 <p>1/2020</p> <p>-</p> <p>4/2020</p>
                             </div>
                         </div>
-                        <div className={cx('content-right')}></div>
+                        <div className={cx('content-right')}>
+                            <ul>
+                                <li>
+                                    <strong>Project</strong>: Employee
+                                    Management System
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </Wrapper>
             </Container>

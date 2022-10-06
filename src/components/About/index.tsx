@@ -67,8 +67,8 @@ function About({ data }: Props) {
                                         members.
                                     </p>
                                     <p>
-                                        My favorite books are: Clean Code,
-                                        learning new languages and technologies.
+                                        My favorite are: learning new languages
+                                        and technologies.
                                     </p>
                                 </div>
                             </div>

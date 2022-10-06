@@ -6,12 +6,12 @@ export interface Contact {
     website: String;
 }
 
+export interface SkillInfo {
+    name: String;
+    list: Array<String>;
+}
+
 export interface Skill {
     id: Number;
-    title: String;
-    skill: Array<String>;
-}
-export interface Skills {
-    id: Number;
-    skills: Array<Skill>;
+    skills: Array<SkillInfo>;
 }
