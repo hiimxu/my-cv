@@ -29,7 +29,7 @@ function About({ data }: Props) {
                     <div className={cx('about-container')}>
                         <Wrapper padding={12}>
                             <img
-                                src="http://cv.toidicodedao.com/images/profile-img.jpg"
+                                src="assets/image/default-avatar.png"
                                 alt="avatar"
                             />
                         </Wrapper>
@@ -38,17 +38,12 @@ function About({ data }: Props) {
                                 <h2 className="title">SUMMARY</h2>
                                 <div className={cx('about-content')}>
                                     <p>
-                                        I'm Pham Huy Hoang, a full stack
-                                        developer with
+                                        I'm Duong Duc Hieu, a front-end
+                                        developer have
                                         <b>
-                                            3 years of experience in .NET
-                                            technologies
+                                            experience in ReactJs technologies
                                         </b>
-                                        and{' '}
-                                        <b>
-                                            1 year of experience in MEAN stack
-                                        </b>
-                                        , with good knowledge of
+                                        , with knowledge of
                                         <i>
                                             {' '}
                                             Database Design, Design Pattern,
@@ -58,7 +53,7 @@ function About({ data }: Props) {
                                     <p>
                                         Learning new languages and technologies
                                         is what I am passionate about (I
-                                        self-taught Django with 3 weeks). I am
+                                        self-taught ReactJs with 5 weeks). I am
                                         considered a team-player because I like
                                         to help other and tend to work well
                                         within groups. I can also do some
@@ -69,17 +64,11 @@ function About({ data }: Props) {
                                         I like helping other and work well with
                                         group. I can also do some mentoring
                                         tasks and code reviewing for other
-                                        members (I also held a presentation
-                                        about IoC and DI for my team).
+                                        members.
                                     </p>
                                     <p>
-                                        I am also the owner of an IT blog
-                                        called: toidicodedao.com. My
-                                        stackoverflow profile is among the top
-                                        11% with more than 3k reps. My favorite
-                                        books are: Clean Code, Head First Design
-                                        Pattern, C# in Depth, Working with
-                                        Legacy Code.
+                                        My favorite books are: Clean Code,
+                                        learning new languages and technologies.
                                     </p>
                                 </div>
                             </div>

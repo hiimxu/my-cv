@@ -16,7 +16,7 @@ function Experience() {
                     <div className={cx('container')}>
                         <div className={cx('content-left')}>
                             <div className={cx('title')}>
-                                <h3>Intern Font-end Developer</h3>
+                                <h3>Intern Front-end Developer</h3>
                                 <p>FPT Software Ha Noi</p>
                             </div>
                             <div className={cx('time')}>

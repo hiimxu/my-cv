@@ -3,7 +3,7 @@ import Education from '../../components/Education';
 import Experience from '../../components/Experience';
 import Header from '../../components/Header/Header';
 import Sidebar from '../../components/Sidebar';
-import Skills from '../../components/Skills';
+import SkillsComp from '../../components/Skills';
 import { CONTACT_INFO } from '../../shared/contact';
 
 import classNames from 'classnames/bind';
@@ -17,7 +17,7 @@ function Home() {
             <Sidebar />
             <Header />
             <About data={CONTACT_INFO} />
-            <Skills />
+            <SkillsComp />
             <Experience />
             <Education />
         </div>

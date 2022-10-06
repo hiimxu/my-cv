@@ -4,10 +4,41 @@ import Wrapper from '../Wrapper';
 
 import classNames from 'classnames/bind';
 import styles from './Skills.module.scss';
+import { Skills, Skill } from '../../shared/types';
+import React from 'react';
 
 const cx = classNames.bind(styles);
 
-function Skills() {
+export type Props = {
+    data: Array<Skill>;
+};
+
+function SkillsComp() {
+    // const ListSkill: React.FC<Props> = ({ data }) => {
+    //     data.map((content: Skill) => (
+    //         <div>
+    //             <h2 className="title">{content.title}</h2>
+    //             <ul>
+    //                 {content.skill.map((skill: String) => (
+    //                     <li>{skill}</li>
+    //                 ))}
+    //             </ul>
+    //         </div>
+    //     ));
+    // };
+
+    // const SkillWrapper = (data: Array<Skills>) => {
+    //     data.map((skill: Skills, index) => (
+    //         <div key={index} className={cx('container-item')}>
+    //             <Wrapper padding={30}>
+    //                 <div className={cx('content')}>
+    //                     <ListSkill data={} />
+    //                 </div>
+    //             </Wrapper>
+    //         </div>
+    //     ));
+    // };
+
     return (
         <div className={cx('wrapper')}>
             <Title title="Skills" id="skill" />
@@ -90,4 +121,4 @@ function Skills() {
     );
 }
 
-export default Skills;
+export default SkillsComp;

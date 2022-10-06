@@ -13,7 +13,7 @@
     justify-content: flex-end;
     p,
     h3 {
-        text-align: center;
+        text-align: right;
     }
 }
 
@@ -45,4 +45,25 @@
 
 .content-right {
     flex: 1;
+}
+
+@media only screen and (max-width: 1024px) {
+    .container {
+        flex-direction: column;
+    }
+    .content-left {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .title {
+        p,
+        h3 {
+            text-align: center;
+        }
+    }
+    .time {
+        position: static;
+        margin-left: 0;
+    }
 }
