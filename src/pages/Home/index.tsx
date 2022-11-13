@@ -13,13 +13,15 @@ const cx = classNames.bind(styles);
 
 function Home() {
     return (
-        <div className={cx('wrapper')}>
+        <div>
             <Sidebar />
-            <Header />
-            <About data={CONTACT_INFO} />
-            <SkillsComp />
-            <Experience />
-            <Education />
+            <div className={cx('wrapper')}>
+                <Header />
+                <About data={CONTACT_INFO} />
+                <SkillsComp />
+                <Experience />
+                <Education />
+            </div>
         </div>
     );
 }

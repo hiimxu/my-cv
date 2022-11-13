@@ -32,3 +32,12 @@ i {
 p {
     padding: 5px 0;
 }
+
+a {
+    text-decoration: none;
+    color: #1fb5ac;
+}
+a:hover {
+    text-decoration: none;
+    color: #e74c3c;
+}
