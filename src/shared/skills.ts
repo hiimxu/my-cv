@@ -1,4 +1,4 @@
-import { Skill } from './types';
+import { Skill } from '../models/types';
 
 export const SKILL_ID: Array<{ skillId: Number }> = [
     { skillId: 1 },
@@ -12,14 +12,15 @@ export const SKILL_INFO: Array<Skill> = [
         skills: [
             {
                 name: 'PROGRAMMING LANGUAGES',
-                list: ['Javascript', 'HTML,CSS', 'Java'],
+                list: ['Javascript / TypeScript', 'HTML, CSS, SCSS', 'Java'],
             },
             {
                 name: 'FRAMEWORKS & PLATFORMS',
                 list: [
-                    'ReactJS / AngularJS ',
-                    'Bootstrap / Material UI ',
-                    'RestfulAPI ',
+                    'ReactJS / Angular',
+                    'Bootstrap / Material UI / PrimeNG',
+                    'RestfulAPI',
+                    'Redux / React Admin',
                 ],
             },
         ],
@@ -27,7 +28,7 @@ export const SKILL_INFO: Array<Skill> = [
     {
         id: 2,
         skills: [
-            { name: 'DATABASE', list: [] },
+            { name: 'DATABASE', list: ['MongoDB'] },
             {
                 name: 'VERSION CONTROL',
                 list: ['Git (Git Shell & Github)'],

@@ -1,4 +1,4 @@
-import { Contact } from './types';
+import { Contact } from '../models/types';
 
 export const CONTACT_INFO: Contact = {
     title: 'Contact info',

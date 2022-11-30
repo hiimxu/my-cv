@@ -5,7 +5,7 @@ import Wrapper from '../Wrapper';
 
 import classNames from 'classnames/bind';
 import styles from './Skills.module.scss';
-import { Skill, SkillInfo } from '../../shared/types';
+import { Skill, SkillInfo } from '../../models/types';
 import { SKILL_INFO } from '../../shared/skills';
 
 const cx = classNames.bind(styles);

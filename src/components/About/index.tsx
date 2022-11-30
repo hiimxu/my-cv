@@ -12,7 +12,7 @@ import EmailIcon from '@mui/icons-material/Email';
 import PublicIcon from '@mui/icons-material/Public';
 
 //Interface
-import { Contact } from '../../shared/types';
+import { Contact } from '../../models/types';
 
 const cx = classNames.bind(styles);
 
@@ -39,7 +39,7 @@ function About({ data }: Props) {
                                 <div className={cx('about-content')}>
                                     <p>
                                         I'm Duong Duc Hieu, a front-end
-                                        developer have
+                                        developer have{' '}
                                         <b>
                                             experience in ReactJs technologies
                                         </b>
