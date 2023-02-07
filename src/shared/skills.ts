@@ -17,9 +17,9 @@ export const SKILL_INFO: Array<Skill> = [
             {
                 name: 'FRAMEWORKS & PLATFORMS',
                 list: [
-                    'ReactJS / Angular',
+                    'ReactJS / Angular / React Native',
                     'Bootstrap / Material UI / PrimeNG',
-                    'RestfulAPI',
+                    'RestfulAPI / GraphQL',
                     'Redux / React Admin',
                 ],
             },

@@ -6,11 +6,13 @@
     background-color: #0a1929;
     z-index: 999;
 }
-.wrapper.wrapper-actived {
+
+.wrapper-active {
     left: 0;
     transition: all 0.35s ease;
 }
-.wrapper.wrapper-static {
+
+.wrapper-static {
     left: -100%;
     transition: all 0.7s ease;
 }
@@ -88,5 +90,15 @@
     li {
         background-color: #28282e;
         color: #3498db;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .wrapper {
+        width: 100vw;
+        height: 150%;
+    }
+    .wrapper-static {
+        transition: all 0.35s ease;
     }
 }
