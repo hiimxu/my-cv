@@ -2,7 +2,7 @@
     "name": "my-cv",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://hieudd-cv.github.io/deploy-github/",
+    "homepage": "https://hiimxu.github.io/deploy-github/",
     "dependencies": {
         "@emotion/react": "^11.10.4",
         "@emotion/styled": "^11.10.4",
@@ -32,7 +32,7 @@
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
-        "predeploy": "npm run build",
+        "predeploy": "yarn build",
         "deploy": "gh-pages -d build"
     },
     "eslintConfig": {
