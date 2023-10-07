@@ -17,8 +17,8 @@ export const SKILL_INFO: Array<Skill> = [
             {
                 name: 'FRAMEWORKS & PLATFORMS',
                 list: [
-                    'ReactJS / React Native / Angular',
-                    'Bootstrap / Material UI / PrimeNG',
+                    'Nextjs / NuxtJs / Angular',
+                    'Bootstrap / Material UI / PrimeNG / TailwindCss / Ant Design',
                     'RestfulAPI / GraphQL',
                     'Redux / React Admin',
                     'Axios / Apollo',
@@ -34,7 +34,7 @@ export const SKILL_INFO: Array<Skill> = [
                 name: 'VERSION CONTROL',
                 list: ['Git (Git Shell & Github)'],
             },
-            { name: 'IDE', list: ['Visual Studio Code', 'Netbeans'] },
+            { name: 'IDE', list: ['Visual Studio Code'] },
         ],
     },
     {

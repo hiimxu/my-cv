@@ -21,10 +21,6 @@ function Sidebar() {
         setShow(!show);
     };
 
-    const handleCloseSidebar = () => {
-        setShow(false);
-    };
-
     return (
         <div>
             <div className={cx('menu-btn')}>
@@ -48,7 +44,6 @@ function Sidebar() {
                             smooth={true}
                             offset={0}
                             duration={500}
-                            onClick={handleCloseSidebar}
                         >
                             <h1>HieuDD</h1>
                         </Link>
@@ -67,7 +62,6 @@ function Sidebar() {
                         smooth={true}
                         offset={0}
                         duration={500}
-                        onClick={handleCloseSidebar}
                     >
                         <li className={cx('item')}>
                             <HomeIcon />
@@ -81,7 +75,6 @@ function Sidebar() {
                         smooth={true}
                         offset={0}
                         duration={500}
-                        onClick={handleCloseSidebar}
                     >
                         <li className={cx('item')}>
                             <PersonIcon />
@@ -95,7 +88,6 @@ function Sidebar() {
                         smooth={true}
                         offset={0}
                         duration={500}
-                        onClick={handleCloseSidebar}
                     >
                         <li className={cx('item')}>
                             <SignalCellularAltIcon />
@@ -109,7 +101,6 @@ function Sidebar() {
                         smooth={true}
                         offset={0}
                         duration={500}
-                        onClick={handleCloseSidebar}
                     >
                         <li className={cx('item')}>
                             <EqualizerIcon />
@@ -123,7 +114,6 @@ function Sidebar() {
                         smooth={true}
                         offset={0}
                         duration={500}
-                        onClick={handleCloseSidebar}
                     >
                         <li className={cx('item')}>
                             <SchoolIcon />

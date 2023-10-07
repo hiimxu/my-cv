@@ -4,11 +4,11 @@ import styles from './Wrapper.module.scss';
 
 const cx = classNames.bind(styles);
 type Props = {
-    children: JSX.Element;
+    children?: JSX.Element;
     padding: Number;
 };
 
-function Wrapper({ children, padding }: Props) {
+const Wrapper: React.FC<Props> = ({ children, padding }) => {
     return (
         <div className={cx('wrapper')}>
             <div
@@ -19,6 +19,10 @@ function Wrapper({ children, padding }: Props) {
             </div>
         </div>
     );
-}
+};
+
+Wrapper.defaultProps = {
+    children: undefined,
+};
 
 export default Wrapper;

@@ -27,12 +27,12 @@ function About({ data }: Props) {
             <div className={cx('container')}>
                 <Container>
                     <div className={cx('about-container')}>
-                        <Wrapper padding={12}>
+                        {/* <Wrapper padding={12}>
                             <img
                                 src="assets/image/default-avatar.png"
                                 alt="avatar"
                             />
-                        </Wrapper>
+                        </Wrapper> */}
                         <Wrapper padding={30}>
                             <div>
                                 <h2 className="title">SUMMARY</h2>
